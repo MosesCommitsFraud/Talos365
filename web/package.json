@@ -1,0 +1,45 @@
+{
+    "name": "talos365-web",
+    "private": true,
+    "version": "0.2.0",
+    "type": "module",
+    "scripts": {
+        "build": "tsc -b && vite build",
+        "typecheck": "tsc -b"
+    },
+    "dependencies": {
+        "@fluentui/svg-icons": "^1.1.341",
+        "@radix-ui/react-context-menu": "^2.3.3",
+        "@radix-ui/react-dialog": "^1.1.19",
+        "@radix-ui/react-dropdown-menu": "^2.1.20",
+        "@radix-ui/react-switch": "^1.3.3",
+        "@radix-ui/react-tooltip": "^1.2.12",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "dom-to-pptx": "^2.1.2",
+        "i18next": "^26.3.4",
+        "katex": "^0.18.1",
+        "lucide-react": "^1.23.0",
+        "pptxgenjs": "^4.0.1",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-i18next": "^17.0.8",
+        "react-markdown": "^10.0.0",
+        "rehype-highlight": "^7.0.2",
+        "rehype-katex": "^7.0.1",
+        "remark-gfm": "^4.0.1",
+        "remark-math": "^6.0.0",
+        "tailwind-merge": "^3.6.0",
+        "thinking-orbs": "0.3.1",
+        "zustand": "^5.0.3"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.3.2",
+        "@types/react": "^19.0.8",
+        "@types/react-dom": "^19.0.3",
+        "@vitejs/plugin-react": "^5.2.0",
+        "tailwindcss": "^4.3.2",
+        "typescript": "~6.0.3",
+        "vite": "^8.1.4"
+    }
+}

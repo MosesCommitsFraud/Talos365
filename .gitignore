@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+*.pem
+*.key
+*.crt
+.vite/
+.DS_Store
+Thumbs.db
+config.json

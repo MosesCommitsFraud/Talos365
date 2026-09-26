@@ -1,0 +1,25 @@
+{
+    "name":  "talos365",
+    "version":  "0.2.0",
+    "private":  true,
+    "description":  "Talos365 – Office-Add-in (Word, PowerPoint, Excel) mit Agent-Loop gegen das Modell im Intranet.",
+    "scripts":  {
+                    "certs":  "office-addin-dev-certs install",
+                    "start":  "node server.js",
+                    "start:http":  "node server.js --http",
+                    "register":  "office-addin-dev-settings register manifest.xml",
+                    "unregister":  "office-addin-dev-settings unregister manifest.xml",
+                    "refresh-addin":  "node scripts/refresh-addin.cjs",
+                    "validate":  "office-addin-manifest validate manifest.xml",
+                    "icons":  "node scripts/gen-icons.js",
+                    "setup":  "npm install \u0026\u0026 npm --prefix web install",
+                    "build":  "npm --prefix web run build"
+                },
+    "dependencies":  {
+                         "office-addin-dev-certs":  "^3.0.1"
+                     },
+    "devDependencies":  {
+                            "office-addin-dev-settings":  "^4.0.1",
+                            "office-addin-manifest":  "^3.0.1"
+                        }
+}
